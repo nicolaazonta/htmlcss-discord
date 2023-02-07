@@ -14,7 +14,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 /* #endregion---general */
 
@@ -96,18 +96,52 @@ div>div>span{
 /* #region---main */
 
 /* #region---main section */
-.main_container{
-    width: 50%;
-    aspect-ratio: 5/2;
-    background-color: aqua;
-}
 .main_section{
-    background-color: coral;
-    height: 24rem;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    height: 30rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.main_container{
+    color: var(--tb-light);
+    text-align: center;
+    width: 50%;
+    aspect-ratio: 5/2;
+}
+.main_container h1{
+    line-height: 3rem;
+    font-size: 3rem;
+    font-weight:800;
+    padding-bottom: 3.5rem;
+}
+.main_container p{
+    padding: 0 2rem;
+    line-height: 1.8rem;
+    font-size: 1rem;
+    font-weight:500;
+    padding-bottom: 2rem;
+}
+.buttons{
+    text-align: center;
+}
+.buttons span{
+    font-weight: 700;
+    border-radius: 2rem;
+    padding:1rem 1.8rem;
+    margin: 1rem;
+    border: solid var(--tb-dark) 1px;
+}
+.buttons #scarica{
+    background-color: var(--tb-light);
+    color: var(--tb-dark);
+}
+.buttons #apri{
+    background-color: var(--tb-dark);
+    color: var(--tb-light);
+}
+
 /* #endregion */
 
 /* #region---secondary sections */
