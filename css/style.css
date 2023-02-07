@@ -4,6 +4,7 @@
     --tb-light: white ;
     --tb-dark: #23272a;
     --tb-card-lightgrey: #f6f6f6;
+    --tb-txt-violet: #8ea1e1;
 }
 
 
@@ -46,6 +47,7 @@
 .pd_1rem{
     padding: 1rem;
 }
+
 /* #endregion*/
 
 
@@ -125,21 +127,18 @@ div>div>span{
     font-weight:500;
     padding-bottom: 2rem;
 }
-.buttons{
-    text-align: center;
-}
-.buttons span{
+.button{
     font-weight: 700;
     border-radius: 2rem;
     padding:1rem 1.8rem;
     margin: 1rem;
     border: solid var(--tb-dark) 1px;
 }
-.buttons #scarica{
+#scarica{
     background-color: var(--tb-light);
     color: var(--tb-dark);
 }
-.buttons #apri{
+#apri{
     background-color: var(--tb-dark);
     color: var(--tb-light);
 }
@@ -152,6 +151,7 @@ div>div>span{
     height: 38rem;
 }
 .s_all_contain{
+    color: var(--tb-dark);
     justify-content: space-between;
     align-items: center;
 }
@@ -181,6 +181,7 @@ div>div>span{
 /* #endregion */
 
 /* #region---PLACE section */
+
 /* #endregion */
 
 /* #region---MEET section */
@@ -188,6 +189,7 @@ div>div>span{
     flex-direction: row-reverse;
 }
 #meet_section{
+    margin-top: -10px;
     background-color:var(--tb-card-lightgrey);
 }
 /* #endregion */
@@ -197,15 +199,42 @@ div>div>span{
 
 /* #region---last section */
 .last_section{
-    background-color: coral;
-    height: 50rem;
+    margin-top: -10px;
+    color: var(--tb-dark);
+    background-color: var(--tb-card-lightgrey);
+    height: 75rem;
     justify-content: center;
-    align-items: center;
 }
 .last_container{
+    text-align: center;
     width: 65%;
     height: 45rem;
-    background-color: aqua;
+}
+.last_container h2{
+    font-size: 2.5rem;
+    font-weight:800;
+    padding: 8rem 0 1.5rem 0;
+}
+.last_container p{
+    margin: 0 2rem;
+    line-height: 1.7rem;
+    font-size: 1rem;
+    font-weight:600;
+}
+.ls_img{
+    width: 100%;
+}
+.last_container h3{
+    font-size: 1.6rem;
+    font-weight:800;
+    padding: 5rem 0 1.5rem 0;
+}
+#v_button{
+    background-color:var(--tb-txt-violet) ;
+    color: var(--tb-light);
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
 }
 /* #endregion */
 
@@ -216,7 +245,7 @@ div>div>span{
 
 footer{
     height: 36rem;
-    background-color: violet;
+    background-color: var(--tb-dark);
     flex-direction: column;
 }
 
@@ -224,11 +253,6 @@ footer{
     flex-grow: 2;
 }
 
-.bot_footer{
-    border-top: 1px solid white;
-    height: 6rem; 
-    align-content: flex-end;
-}
 
 #container{
     margin-top: 0.8rem;
@@ -236,26 +260,79 @@ footer{
 .col{
     flex-grow: 1;
     height: 26rem;
-    background-color: lightskyblue;
 }
 #main_column{
     width: 15%;
-    background-color: blueviolet;
+    flex-grow: 2;
 }
 
+footer h4, footer li{
+    padding: 0.4rem;
+    font-size: 0.8rem;
+}
+footer h4{    
+    color: var(--tb-txt-violet);
+    font-weight: 700;
+}
+footer li{    
+    list-style: none;
+    color: var(--tb-light);
+    font-weight: 600;
+}
+
+footer h3{
+    color: var(--tb-txt-violet);
+    font-size: 1.7rem;
+    padding-bottom: 0.6rem;
+}
+.language, .social{
+    line-height: 1rem;
+    padding: 0.6rem 0;
+    color: var(--tb-light);
+}
+footer img{
+    height: 0.8rem;
+}
+div i{
+    padding-right: 0.8rem;
+    font-size: 1.2rem;
+}
+
+.bot_footer{
+    height: 6rem; 
+}
 #logo_bottone{
+    border-top: 1px solid white;
     height: 4rem;
     justify-content: space-between;
     align-items: center;
 }
-
-.logo_footer, .bottone_footer{
+.l_f, .bottone_footer{
     width: 4rem;
     height: 1.5rem;
-    background-color: aquamarine;
+}
+.logo_footer{
+    height: 2rem;
+}
+.reg_botton{
+    background-color: var(--tb-txt-violet);
+    padding: .6rem;
+    font-size: .8rem;
+    border-radius: 1rem;
+    margin-left: -14px;
+    color: var(--tb-light);
+
 }
 
+.wave_a{
+    color: var(--tb-light);
+    background-color: var(--tb-card-lightgrey);
+}
 
+.wave_b{
+    color: var(--tb-card-lightgrey);
+    background-color: var(--tb-light);
+}
 
 
 
