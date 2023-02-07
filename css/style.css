@@ -43,6 +43,9 @@
 .d_flex{
     display: flex;
 }
+.pd_1rem{
+    padding: 1rem;
+}
 /* #endregion*/
 
 
@@ -111,7 +114,6 @@ div>div>span{
     aspect-ratio: 5/2;
 }
 .main_container h1{
-    line-height: 3rem;
     font-size: 3rem;
     font-weight:800;
     padding-bottom: 3.5rem;
@@ -146,22 +148,35 @@ div>div>span{
 
 /* #region---secondary sections */
 .s_section{
-    background-color:bisque;
-    height: 30rem;
+    background-color:var(--tb-light);
+    height: 38rem;
 }
 .s_all_contain{
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 .img_cont{
-    background-color: coral; 
-    flex-grow: 2;
     height: 25rem;   
 }
+.s_img{
+    width: 35rem;
+    aspect-ratio: 1/1;
+    margin-top: -7.6rem;
+    margin-left: -2rem;
+}
 .txt_cont{
-    background-color:deepskyblue; 
-    flex-grow: 1; 
+    width: 20rem; 
     height: 25rem;    
+}
+.txt_cont h2{
+    font-size: 2.5rem;
+    font-weight:800;
+    padding-bottom: 2.5rem;
+}
+.txt_cont p{
+    line-height: 1.5rem;
+    font-size: 1rem;
+    font-weight:600;
 }
 /* #endregion */
 
