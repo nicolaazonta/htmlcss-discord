@@ -3,7 +3,7 @@
     --tb-header: #3161e0;
     --tb-light: white ;
     --tb-dark: #23272a;
-    --tb-card_______: #ffffff;
+    --tb-card-lightgrey: #f6f6f6;
 }
 
 
@@ -188,7 +188,7 @@ div>div>span{
     flex-direction: row-reverse;
 }
 #meet_section{
-    background-color:lightcyan;
+    background-color:var(--tb-card-lightgrey);
 }
 /* #endregion */
 
