@@ -1,0 +1,219 @@
+
+:root{
+    --tb-header: #3161e0;
+    --tb-light: white ;
+    --tb-dark: #23272a;
+    --tb-card_______: #ffffff;
+}
+
+
+
+
+/* #region---general */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+/* #endregion---general */
+
+
+/* #region---utilities */
+.w_65{
+    width: 65%;
+    margin: auto;
+}
+
+.b_solid{
+    border: 2px solid black;
+}
+
+.b_dashed{
+    border: 2px dashed black;
+}
+
+.m_lr{
+    margin: 0 0.5rem;
+}
+
+.pt_1r{
+    padding-top: 1rem;
+}
+.d_flex{
+    display: flex;
+}
+/* #endregion*/
+
+
+
+/* #region---header */
+header{
+    background-color: var(--tb-header);
+    height: 4rem;
+    align-items: center;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.menu{
+    justify-content: space-between;
+    height: 2rem;
+}
+
+.logo{
+    flex-grow: 1;
+    text-align: left;
+}
+
+.link span{
+    padding: 0 0.6rem;
+}
+.link{
+    flex-grow: 3;
+    text-align: center;
+    align-self: center;
+}
+
+#accedi_butt{
+    background-color: white;
+    border-radius: 1rem;
+    padding: 0.6rem;
+    color: black;
+}
+.login{
+    flex-grow: 1;
+    text-align: right;
+}
+
+div>div>span{
+    line-height: 2rem;
+}
+/* #endregion*/
+
+
+/* #region---main */
+
+/* #region---main section */
+.main_container{
+    width: 50%;
+    aspect-ratio: 5/2;
+    background-color: aqua;
+}
+.main_section{
+    background-color: coral;
+    height: 24rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* #endregion */
+
+/* #region---secondary sections */
+.s_section{
+    background-color:bisque;
+    height: 30rem;
+}
+.s_all_contain{
+    justify-content: center;
+    align-items: center;
+}
+.img_cont{
+    background-color: coral; 
+    flex-grow: 2;
+    height: 25rem;   
+}
+.txt_cont{
+    background-color:deepskyblue; 
+    flex-grow: 1; 
+    height: 25rem;    
+}
+/* #endregion */
+
+/* #region---PLACE section */
+/* #endregion */
+
+/* #region---MEET section */
+#meet_section .s_all_contain {
+    flex-direction: row-reverse;
+}
+#meet_section{
+    background-color:lightcyan;
+}
+/* #endregion */
+
+/* #region---FANDOM section */
+/* #endregion */
+
+/* #region---last section */
+.last_section{
+    background-color: coral;
+    height: 50rem;
+    justify-content: center;
+    align-items: center;
+}
+.last_container{
+    width: 65%;
+    height: 45rem;
+    background-color: aqua;
+}
+/* #endregion */
+
+/* #endregion---main */
+
+
+/* #region---footer */
+
+footer{
+    height: 36rem;
+    background-color: violet;
+    flex-direction: column;
+}
+
+.top_footer{
+    flex-grow: 2;
+}
+
+.bot_footer{
+    border-top: 1px solid white;
+    height: 6rem; 
+    align-content: flex-end;
+}
+
+#container{
+    margin-top: 0.8rem;
+}
+.col{
+    flex-grow: 1;
+    height: 26rem;
+    background-color: lightskyblue;
+}
+#main_column{
+    width: 15%;
+    background-color: blueviolet;
+}
+
+#logo_bottone{
+    height: 4rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_footer, .bottone_footer{
+    width: 4rem;
+    height: 1.5rem;
+    background-color: aquamarine;
+}
+
+
+
+
+
+
+
+/* #endregion*/
+
+
+
+
