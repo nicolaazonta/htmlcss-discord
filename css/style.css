@@ -7,9 +7,6 @@
     --tb-txt-violet: #8ea1e1;
 }
 
-
-
-
 /* #region---general */
 *{
     margin: 0;
@@ -19,12 +16,12 @@
 }
 /* #endregion---general */
 
-
 /* #region---utilities */
-.w_65{
+.container_65{
     width: 65%;
+    max-width: 1152px;
     margin: auto;
-}
+}   
 
 .b_solid{
     border: 2px solid black;
@@ -48,9 +45,17 @@
     padding: 1rem;
 }
 
+.wave_a{
+    color: var(--tb-light);
+    background-color: var(--tb-card-lightgrey);
+}
+
+.wave_b{
+    color: var(--tb-card-lightgrey);
+    background-color: var(--tb-light);
+}
+
 /* #endregion*/
-
-
 
 /* #region---header */
 header{
@@ -96,7 +101,6 @@ div>div>span{
     line-height: 2rem;
 }
 /* #endregion*/
-
 
 /* #region---main */
 
@@ -148,15 +152,12 @@ div>div>span{
 /* #region---secondary sections */
 .s_section{
     background-color:var(--tb-light);
-    height: 38rem;
+    padding: 8rem 0;
 }
 .s_all_contain{
     color: var(--tb-dark);
     justify-content: space-between;
     align-items: center;
-}
-.img_cont{
-    height: 25rem;   
 }
 .s_img{
     width: 35rem;
@@ -165,8 +166,7 @@ div>div>span{
     margin-left: -2rem;
 }
 .txt_cont{
-    width: 20rem; 
-    height: 25rem;    
+    width: 20rem;  
 }
 .txt_cont h2{
     font-size: 2.5rem;
@@ -180,10 +180,6 @@ div>div>span{
 }
 /* #endregion */
 
-/* #region---PLACE section */
-
-/* #endregion */
-
 /* #region---MEET section */
 #meet_section .s_all_contain {
     flex-direction: row-reverse;
@@ -192,9 +188,6 @@ div>div>span{
     margin-top: -10px;
     background-color:var(--tb-card-lightgrey);
 }
-/* #endregion */
-
-/* #region---FANDOM section */
 /* #endregion */
 
 /* #region---last section */
@@ -240,11 +233,9 @@ div>div>span{
 
 /* #endregion---main */
 
-
 /* #region---footer */
 
 footer{
-    height: 36rem;
     background-color: var(--tb-dark);
     flex-direction: column;
 }
@@ -323,20 +314,6 @@ div i{
     color: var(--tb-light);
 
 }
-
-.wave_a{
-    color: var(--tb-light);
-    background-color: var(--tb-card-lightgrey);
-}
-
-.wave_b{
-    color: var(--tb-card-lightgrey);
-    background-color: var(--tb-light);
-}
-
-
-
-
 
 /* #endregion*/
 
